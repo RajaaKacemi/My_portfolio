@@ -1,0 +1,27 @@
+[
+    {
+      "title": "The Console (CLI)",
+      "Type": "Airbnb clone",
+      "Description": "The HBNB console is the first step in an attempt to clone the known AirBnb site. A console (CLI) capable of creating, manipulating, and storing instances...",
+      "LiveDemo": "",
+      "Code": "https://github.com/RajaaKacemi/AirBnB_clone",
+      "Page_desc": "/Console_project"
+    },
+    {
+      "title": "PRESTIGIOUS",
+      "Type": "E-commerce website",
+      "Description": "An e-commerce website to sell jewelries and accessories, this application based on MERN stack technologies. I create this website in partnership with two people.",
+      "LiveDemo": "https://prestigious-five.vercel.app/",
+      "Code": "https://github.com/RajaeKacemi/E-commerceWebsite",
+      "Page_desc": "/Prestigious_project"
+    },
+    {
+      "title": "Random quotes",
+      "Type": "",
+      "Description": "A simple app offer random quotes.",
+      "LiveDemo": "https://random-quotes-ruby.vercel.app/",
+      "Code": "https://github.com/RajaeKacemi/random_quotes",
+      "Page_desc": "/Random_quotes_project"
+    }
+  ]
+  

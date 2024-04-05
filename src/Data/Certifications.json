@@ -1,0 +1,15 @@
+[
+    
+    {
+        "title":"Learn Intermediate JavaScript",
+        "image":"../../public/assets/images/image1.png"
+    },
+    {
+        "title":"Learn Express Course",
+        "image":"../../public/assets/images/image2.png"
+    },
+    {
+        "title":"Certificat full stack developer MERN",
+        "image":"../../public/assets/images/image3.png"
+    }
+]

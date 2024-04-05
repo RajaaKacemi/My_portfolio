@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-import projectImage from "../../../public/assets/images/image.png";
-import projectimage from "../../../public/assets/images/imageT.png";
 
 function Console_project() {
   return (
@@ -19,7 +17,7 @@ function Console_project() {
         of an object/instance.
       </p>
       <div>
-        <img src={projectImage} alt="" className="py-2" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279781/image_l6ppps.png" alt="" className="py-2" />
       </div>
       <h4 className="text-xl py-1">
         <strong>Storage</strong>
@@ -43,7 +41,7 @@ function Console_project() {
       <h4 className="text-xl py-1">
         <strong>Here&apos;s an illustration:</strong>
       </h4>
-      <img src={projectimage} alt="" className="pt-2" />
+      <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279782/imageT_a4a4qw.png" alt="" className="pt-2" />
     </div>
   );
 }

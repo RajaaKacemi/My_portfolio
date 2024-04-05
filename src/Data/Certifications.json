@@ -2,14 +2,14 @@
     
     {
         "title":"Learn Intermediate JavaScript",
-        "image":"../../public/assets/images/image1.png"
+        "image":"https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279781/image2_li2o9m.png"
     },
     {
         "title":"Learn Express Course",
-        "image":"../../public/assets/images/image2.png"
+        "image":"https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279781/image1_yafdte.png"
     },
     {
         "title":"Certificat full stack developer MERN",
-        "image":"../../public/assets/images/image3.png"
+        "image":"https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279781/image3_u01qxh.png"
     }
 ]

@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Screenshot5 from "../../../public/assets/images/Screenshot5.png";
 
 function Random_quotes_project() {
     return (
@@ -19,7 +18,7 @@ function Random_quotes_project() {
         Here&apos;s some screen shot:
       </h4>
       <div>
-        <img src={Screenshot5} alt="" className="py-2 w-2/3 mx-auto" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279784/Screenshot5_uqo3hr.png" alt="" className="py-2 w-2/3 mx-auto" />
       </div>
     </div>
     );

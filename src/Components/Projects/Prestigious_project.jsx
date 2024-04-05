@@ -1,7 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Screenshot1 from "../../../public/assets/images/Screenshot1.png";
-import Screenshot2 from "../../../public/assets/images/Screenshot2.png";
-import Screenshot3 from "../../../public/assets/images/Screenshot3.png";
 
 function Prestigious_project() {
     return (
@@ -21,13 +18,13 @@ function Prestigious_project() {
         Here&apos;s some screen shot:
       </h4>
       <div>
-        <img src={Screenshot1} alt="" className="py-2 w-2/3 mx-auto" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279784/Screenshot1_z0xmkc.png" alt="" className="py-2 w-2/3 mx-auto" />
       </div>
       <div>
-        <img src={Screenshot2} alt="" className="py-2 w-2/3 mx-auto" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279784/Screenshot2_vzcjw4.png" alt="" className="py-2 w-2/3 mx-auto" />
       </div>
       <div>
-        <img src={Screenshot3} alt="" className="py-2 w-2/3 mx-auto" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279784/Screenshot3_kqj0gj.png" alt="" className="py-2 w-2/3 mx-auto" />
       </div>
     </div>
     );

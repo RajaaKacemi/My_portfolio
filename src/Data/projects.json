@@ -16,6 +16,14 @@
       "Page_desc": "/Prestigious_project"
     },
     {
+      "title": "E-commerce Management Dashboard",
+      "Type": "",
+      "Description": "A E-commerce Management Dashboard is a robust solution designed to empower businesses operating online retail platforms with efficient management of products, orders, and user interactions, while providing valuable statistical insights for informed decision-making.",
+      "LiveDemo": "",
+      "Code": "https://github.com/RajaeKacemi/E-commerceWebsite",
+      "Page_desc": "/Dashboard_project"
+    },
+    {
       "title": "Random quotes",
       "Type": "",
       "Description": "A simple app offer random quotes.",
@@ -23,5 +31,6 @@
       "Code": "https://github.com/RajaeKacemi/random_quotes",
       "Page_desc": "/Random_quotes_project"
     }
+    
   ]
   

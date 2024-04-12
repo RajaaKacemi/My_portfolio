@@ -6,53 +6,47 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
-const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+const Header = ({ isDarkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
-
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
 
   const toggleBar = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="flex justify-center px-8 w-full">
+    <header className={`flex justify-center py-8 px-12 w-full  ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
       <div className='hidden sm:block'>
-        <NavLink to="/Home" className="px-2 font-normal hover:underline" >Home</NavLink>
-        <NavLink to="/Profile" className="px-2 font-normal hover:underline " >Profile</NavLink>
-        <NavLink to="/Projects" className="px-2  font-normal hover:underline" >Projects</NavLink>
-        <NavLink to="/Skills" className="px-2  font-normal hover:underline " >Skills</NavLink>
-        <NavLink to="/Contact" className="px-2  font-normal hover:underline " >Contact</NavLink>
-        <NavLink to="/Home" className="px-2  font-normal hover:underline " >Blog</NavLink>
+        <NavLink to="/Home" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Home</NavLink>
+        <NavLink to="/Profile" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >About</NavLink>
+        <NavLink to="/Skills" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Profile</NavLink>
+        <NavLink to="/Projects" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Projects</NavLink>
+        <NavLink to="/Contact" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Contact</NavLink>
+        <NavLink to="/Home" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Blog</NavLink>
       </div>
       <div className='flex w-full justify-between'>
         <div className="flex sm:hidden">
           <FontAwesomeIcon
             icon={isOpen ? faTimes : faBars}
-            className="text-lg font-normal cursor-pointer"
+            className={`text-lg font-normal cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`}
             onClick={toggleBar}
           />
         </div>
         <div>
           {isOpen && (
-            <div className="flex flex-col fixed top-4 left-0 right-0 z-10 py-4 mt-8 border sm:w-full h-full bg-black ">
-              <NavLink to="/Home" className="px-2 pt-10 text-4xl font-normal hover:underline text-white" onClick={toggleBar}>Home</NavLink>
-              <NavLink to="/Profile" className="px-2 pt-10 text-4xl font-normal hover:underline text-white" onClick={toggleBar}>Profile</NavLink>
-              <NavLink to="/Projects" className="px-2 pt-10 text-4xl font-normal hover:underline text-white" onClick={toggleBar}>Projects</NavLink>
-              <NavLink to="/Skills" className="px-2 pt-10 text-4xl font-normal hover:underline text-white" onClick={toggleBar}>Skills</NavLink>
-              <NavLink to="/Contact" className="px-2 pt-10 text-4xl font-normal hover:underline text-white" onClick={toggleBar}>Contact</NavLink>
-              <NavLink to="/Home" className="px-2 pt-10 text-4xl font-normal hover:underline text-white" onClick={toggleBar}>Blog</NavLink>
+            <div className={`flex flex-col fixed top-4 left-0 right-0 z-10 py-4 mt-12 border sm:w-full h-full ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
+              <NavLink to="/Home" className={`px-2 pt-10 text-4xl font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} onClick={toggleBar}>Home</NavLink>
+              <NavLink to="/Profile" className={`px-2 pt-10 text-4xl font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} onClick={toggleBar}>About</NavLink>
+              <NavLink to="/Skills" className={`px-2 pt-10 text-4xl font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} onClick={toggleBar}>Profile</NavLink>
+              <NavLink to="/Projects" className={`px-2 pt-10 text-4xl font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} onClick={toggleBar}>Projects</NavLink>
+              <NavLink to="/Contact" className={`px-2 pt-10 text-4xl font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} onClick={toggleBar}>Contact</NavLink>
+              <NavLink to="/Home" className={`px-2 pt-10 text-4xl font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} onClick={toggleBar}>Blog</NavLink>
             </div>
           )}
         </div>
         <div>
           <FontAwesomeIcon
               icon={isDarkMode ? faSun : faMoon}
-              className="text-lg font-normal cursor-pointer"
+              className={`text-lg font-normal cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`}
               onClick={toggleDarkMode}
             />
         </div>

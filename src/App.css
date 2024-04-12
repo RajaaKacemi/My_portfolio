@@ -5,9 +5,8 @@
 
 
 #root {
-  max-width: 1280px;
+  height: fit-content;
   margin: 0 auto;
-  padding: 1.4rem;
   text-align: center;
 
 }

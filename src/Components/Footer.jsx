@@ -1,16 +1,23 @@
+import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'; 
 
-function Footer() {
+function Footer({ isDarkMode }) {
     return (
-        <div className="flex flex-col justify-center py-4 ">
+        <div className={`flex flex-col justify-center py-2  ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
             <div className="flex justify-center py-3 gap-4">
-           <a href='https://www.linkedin.com/in/rajaakacemi/'> <FontAwesomeIcon icon={faLinkedin} className="text-lg font-normal cursor-pointer" /></a>
-            <a href="https://twitter.com/heyRajaa"><FontAwesomeIcon icon={faTwitter} className="text-lg font-normal cursor-pointer" /></a>
-            <a href="https://github.com/RajaaKacemi"><FontAwesomeIcon icon={faGithub} className="text-lg font-normal cursor-pointer" /></a>
+                <a target="_blank" href='https://www.linkedin.com/in/rajaakacemi/' >
+                    <FontAwesomeIcon icon={faLinkedin} className={`text-lg font-normal cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`} />
+                </a>
+                <a target="_blank" href="https://twitter.com/heyRajaa">
+                    <FontAwesomeIcon icon={faTwitter} className={`text-lg font-normal cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`} />
+                </a>
+                <a target="_blank" href="https://github.com/RajaaKacemi">
+                    <FontAwesomeIcon icon={faGithub} className={`text-lg font-normal cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'}`} />
+                </a>
             </div>
-            <hr className='w-full py-1'/>
-            <p className='py-2'>All rights reserved | Rajaa Kacemi</p>
+            <hr className={`w-full py-1 ${isDarkMode ? 'text-white' : 'text-black'}`} />
+            <p className={`py-2 ${isDarkMode ? 'text-white' : 'text-black'}`}>Rajaa Kacemi | 2024</p>
         </div>
     );
 }

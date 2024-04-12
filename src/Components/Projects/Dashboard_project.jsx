@@ -28,7 +28,7 @@ function Dashboard_project({ isDarkMode }) {
         -Manage user accounts, permissions, and access levels securely.
       </p>
       <p className="py-1 px-8 text-start text-base leading-relaxed">-Detailed user profiles with purchase history, preferences, and activity logs,</p>
-      <p className="py-1 px-8 text-start text-base leading-relaxed">I create this website in partnership with two people <a target="_blank" href="" >@Taha Atoui</a> and <a target="_blank" href="">@Amine Elbouzydy</a>.</p>
+      <p className="py-1 px-8 text-start text-base leading-relaxed">I create this website in partnership with two people <a target="_blank" href="https://www.linkedin.com/in/taha-el-atoui-4089a2227/" >@Taha El atoui</a> and <a target="_blank" href="https://www.linkedin.com/in/amine-el-bouzydy-06943a22b/">@Amine Elbouzydy</a>.</p>
       {/* <h5 className="py-1 px-8 text-start text-base leading-relaxed"><strong>Live Demo:</strong><a href="https://github.com/RajaeKacemi/E-commerceWebsite"> see the project</a></h5> */}
       <h4 className="text-sm pb-2 text-start px-8">
         Here&apos;s some screens shot:

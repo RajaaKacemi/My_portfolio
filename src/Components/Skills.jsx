@@ -27,7 +27,8 @@ function Skills({ isDarkMode }) {
     };
     
     return (
-        <div className={`flex flex-col justify-center px-8 pt-10 pb-6 `}>
+        
+        <div className={`flex flex-col justify-center px-8 pt-10 pb-6 ${isDarkMode ? 'bg-black' : 'bg-white'} `}>
             <div className="flex justify-center gap-2 flex-wrap py-5">
     <button 
         className={`px-4 py-2 border ${
@@ -62,8 +63,8 @@ function Skills({ isDarkMode }) {
 </div>
 
 
-            <div className="sm:flex justify-between px-46 my-4">
-                
+            <div className={`sm:flex justify-between px-46 my-4  `}>
+            
                 {isExperiences && (
                     <>
                         <div className="flex flex-col sm:w-1/2 p-2">
@@ -113,7 +114,8 @@ function Skills({ isDarkMode }) {
                 {isCertifications && (
                     <>
                         {CertificationsData.map((Certification, index) => (
-                            <div key={index} className="p-4 sm:w-1/3 flex-grow flex">
+                            
+                            <div key={index} className={`p-4 sm:w-1/3 flex-grow flex  `}>
                                 <div className={`border py-4 px-3 hover:border-2 hover:border-${isDarkMode ? 'white' : 'black'} transition-all ease-in-out flex-grow flex flex-col justify-between`}>
                                     <div className="">
                                         <p className="text-sm"><strong>{Certification.title}</strong></p>

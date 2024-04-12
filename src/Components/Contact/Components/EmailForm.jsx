@@ -86,7 +86,7 @@ function EmailForm({ isDarkMode }) {
                 </div>
                 <div className="flex flex-col">
                     <label htmlFor="message" className={`text-sm py-2 ${isDarkMode ? 'text-white' : 'text-gray-500 '}`}>Message *</label>
-                    <textarea id="message" name="message" rows="4" placeholder=" " value={message} onChange={(e) => setMessage(e.target.value)} required className="py-1 border border-gray-300 focus:outline-none focus:border-black" />
+                    <textarea id="message" name="message" rows="4" placeholder=" " value={message} onChange={(e) => setMessage(e.target.value)} required className="py-1 text-black border border-gray-300 focus:outline-none focus:border-black" />
                 </div>
                 <button type="submit" className={`py-2 px-4 hover:bg-gray-800 transition-colors ${isDarkMode ? 'bg-gray-800' : 'bg-black text-white'}`} onClick={onSubmit}>Submit</button>
             

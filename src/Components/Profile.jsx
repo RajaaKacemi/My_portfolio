@@ -12,7 +12,7 @@ function Profile({ isDarkMode }) {
                     I am a passionate and skilled Software Developer specializing in <strong> Mobile and Web development </strong> with a strong dedication to quality and attention to detail. I am constantly seeking new challenges and opportunities to improve my craft. I stay updated with the latest industry trends and best practices <strong> by attending conferences , taking online courses</strong>, and experimenting with new technologies. I build functional, beautiful and user-friendly designs. My commitment to innovation ensures that clients receive cutting-edge and effective solutions.
                 </p>
                 <div className='py-2 flex gap-3'>
-                    <a target="_blank" className={`px-2 py-2 border text-sm ${isDarkMode ? 'bg-white text-black' : 'bg-black text-white'}`} href='#'>Download Resume</a>
+                    <a target="_blank" className={`px-2 py-2 border text-sm ${isDarkMode ? 'bg-white text-black' : 'bg-black text-white'}`} href='https://github.com/RajaaKacemi/my_resume/blob/master/CV_rajaa_KACEMI_Eng.pdf'>Download Resume</a>
                     <NavLink to="/Contact" className={`px-2 py-2 border text-sm ${isDarkMode ? 'bg-white text-black' : 'bg-black text-white'}`} >Contact me</NavLink>
                 </div>
             </div>

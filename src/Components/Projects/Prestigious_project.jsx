@@ -11,7 +11,7 @@ function Prestigious_project({ isDarkMode }) {
       </NavLink>
 
       <p className="py-3 px-8 text-start text-base leading-relaxed">
-        An e-commerce website to sell jewelries and accessories, this application based on MERN stack technologies (MongoDB for DataBase, Express, ReactJs and NodeJs) and Redux Toolkit. I create this website in partnership with two people ( <a target="_blank" href="https://www.linkedin.com/in/taha-el-atoui-4089a2227/">@Taha El atoui</a> and <a target="_blank" href="https://www.linkedin.com/in/amine-el-bouzydy-06943a22b/">@Amine Elbouzydy</a>).
+        An e-commerce website to sell jewelries and accessories, this application based on MERN stack technologies (MongoDB for DataBase, Express, ReactJs and NodeJs) and Redux Toolkit. I create this website in partnership with <i>( <a target="_blank" href="https://www.linkedin.com/in/taha-el-atoui-4089a2227/">@Taha El atoui</a> and <a target="_blank" href="https://www.linkedin.com/in/amine-el-bouzydy-06943a22b/">@Amine Elbouzydy</a></i>).
       </p>
       <h5 className="py-3 px-8 text-start text-base leading-relaxed"><strong>Live Demo:</strong><a target="_blank" href="https://prestigious-five.vercel.app/"> see the project</a></h5>
       <h4 className="text-sm pb-2 text-start px-8">

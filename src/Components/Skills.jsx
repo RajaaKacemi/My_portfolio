@@ -75,7 +75,8 @@ function Skills({ isDarkMode }) {
                                         <h6 className="sm:text-sm text-xs text-start"><span className='font-semibold'>Internship:</span> Jan. 2024 - Mar. 2024</h6>
                                         <p className="sm:text-sm text-xs text-end"><strong>Full stack Mobile Developer</strong></p>
                                     </div>
-                                    <p className="py-3 text-sm text-start">Developed a mobile e-commerce application, with Flutter.</p>
+                                    <p className="py-1 text-sm text-start">- Developed a mobile e-commerce application, with Flutter and Dart.</p>
+                                    <p className="py-1 text-sm text-start">- Create an interface to send marketing messages on WhatsApp, implementing WhatsApp Business API.</p>
                                 </div>
                             </div>
                             <div className="p-2">
@@ -84,7 +85,7 @@ function Skills({ isDarkMode }) {
                                         <h6 className="sm:text-sm text-xs text-start"><span className='font-semibold'>Internship:</span> Jul. 2023 - Dec. 2023</h6>
                                         <p className="sm:text-sm text-xs text-end"><strong>Full Stack Web Developer </strong></p>
                                     </div>
-                                    <p className="py-3 text-sm text-start">Developed an e-commerce web application utilizing the MERN Stack, with ReactJs, MongoDB, Tailwind CSS, Redux toolkit, NodeJs, ExpressJs, and JavaScript.</p>
+                                    <p className="py-3 text-sm text-start">- Developed an e-commerce web application utilizing the MERN Stack, with ReactJs, MongoDB, Tailwind CSS, Redux toolkit, NodeJs, ExpressJs, and JavaScript.</p>
                                 </div>
                             </div>
                         </div>

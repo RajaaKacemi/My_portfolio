@@ -1,8 +1,9 @@
 import myImage from '../../../public/assets/images/undraw_newsletter_re_wrob.svg';
 import EmailForm from './Components/EmailForm';
-function Contact() {
+function Contact({ isDarkMode }) {
+
     return (
-        <div className="lg:flex lg:justify-between justify-between px-8 pt-12">
+        <div className={`lg:flex lg:justify-between justify-between px-8 pt-12 ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
 
             <div className="lg:w-1/2">
             <div className="max-w-md mx-auto p-6 border ">

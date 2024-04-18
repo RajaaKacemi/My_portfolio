@@ -76,7 +76,7 @@ function Skills({ isDarkMode }) {
                                         <p className="sm:text-sm text-xs text-end"><strong>Full stack Mobile Developer</strong></p>
                                     </div>
                                     <p className="py-1 text-sm text-start">- Developed a mobile e-commerce application, with Flutter and Dart.</p>
-                                    <p className="py-1 text-sm text-start">- Create an interface to send marketing messages on WhatsApp, implementing WhatsApp Business API.</p>
+                                    <p className="py-1 text-sm text-start">- Create an interface to send marketing messages on WhatsApp, implementing WhatsApp Business API, using ReactJs and Tailwind CSS.</p>
                                 </div>
                             </div>
                             <div className="p-2">
@@ -108,6 +108,8 @@ function Skills({ isDarkMode }) {
                                     </div>
                                 </div>
                             </div>
+
+                            
                         </div>
                     </>
                 )}

@@ -8,7 +8,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Header = ({ isDarkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  
   const toggleBar = () => {
     setIsOpen(!isOpen);
   };
@@ -17,9 +17,9 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
     <header className={`flex justify-center py-8 px-12 w-full  ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
       <div className='hidden sm:block'>
         <NavLink to="/Home" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Home</NavLink>
+        <NavLink to="/Projects" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Projects</NavLink>
         <NavLink to="/Profile" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >About</NavLink>
         <NavLink to="/Skills" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Profile</NavLink>
-        <NavLink to="/Projects" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Projects</NavLink>
         <NavLink to="/Contact" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Contact</NavLink>
         <NavLink to="/Home" className={`px-2 font-normal hover:underline ${isDarkMode ? 'text-white' : 'text-black'}`} >Blog</NavLink>
       </div>

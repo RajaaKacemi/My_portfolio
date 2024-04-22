@@ -3,7 +3,7 @@
       "title": "The Console (CLI)",
       "Type": "Airbnb clone",
       "Description": "The HBNB console is the first step in an attempt to clone the known AirBnb site. A console (CLI) capable of creating, manipulating, and storing instances...",
-      "LiveDemo": "",
+      "LiveDemo": "https://github.com/RajaaKacemi/AirBnB_clone",
       "Code": "https://github.com/RajaaKacemi/AirBnB_clone",
       "Page_desc": "/Console_project"
     },
@@ -19,7 +19,7 @@
       "title": "E-commerce Management Dashboard",
       "Type": "",
       "Description": "A E-commerce Management Dashboard is a robust solution designed to empower businesses operating online retail platforms with efficient management of products, orders, and user interactions, while providing valuable statistical insights for informed decision-making.",
-      "LiveDemo": "",
+      "LiveDemo": "https://github.com/RajaeKacemi/E-commerceWebsite",
       "Code": "https://github.com/RajaeKacemi/E-commerceWebsite",
       "Page_desc": "/Dashboard_project"
     },

@@ -10,17 +10,6 @@ function EmailForm({ isDarkMode }) {
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
-    const notifyFailure = () => {
-        swal({
-            title: 'Sorry, we couldn\'t send your email.',
-            text: 'Oops! An error occurred while sending your email. Please try again later',
-            icon: 'error',
-            onClose: () => {
-                navigate('/Home');
-            },
-            className: 'alert',
-        });
-    };
 
     const notifySuccess = () => {
         swal({
@@ -63,10 +52,7 @@ function EmailForm({ isDarkMode }) {
     }
     
     
-    // if (error) {
-    //     notifyFailure();
-    // }
-
+   
     if (submitted) {
         notifySuccess();
     }
@@ -88,7 +74,7 @@ function EmailForm({ isDarkMode }) {
                     <label htmlFor="message" className={`text-sm py-2 ${isDarkMode ? 'text-white' : 'text-gray-500 '}`}>Message *</label>
                     <textarea id="message" name="message" rows="4" placeholder=" " value={message} onChange={(e) => setMessage(e.target.value)} required className="py-1 text-black border border-gray-300 focus:outline-none focus:border-black" />
                 </div>
-                <button type="submit" className={`py-2 px-4 hover:bg-gray-800 transition-colors ${isDarkMode ? 'bg-gray-800' : 'bg-black text-white'}`} onClick={onSubmit}>Submit</button>
+                <button type="submit" className={`py-2 px-4 hover:bg-gray-800 transition-colors ${isDarkMode ? 'bg-gray-800 ' : 'bg-black text-white'}`} onClick={onSubmit}>Submit</button>
             
             </form>
         </div>

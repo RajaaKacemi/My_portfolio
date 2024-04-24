@@ -27,11 +27,11 @@ const Home = ({ isDarkMode }) => {
                 I&apos;m a Full Stack Developer. I make things better for users by coming up with new ideas that make them happy and keep them interested.
             </p>
 
-            <div className={`py-3 ${isDarkMode ? 'bg-black' : 'bg-white'}`}>
+            <div className={`pt-4 ${isDarkMode ? 'bg-black' : 'bg-white'}`}>
                 <img
                     src={isDarkMode ? imageLogoWhite : imageLogo}
                     alt="developer"
-                    className={`m-auto ${isDarkMode ? 'w-32 sm:w-40 lg:w-48' : 'w-25 sm:w-32 lg:w-40'}`}
+                    className={`m-auto w-26 sm:w-32 lg:w-40`}
                     data-aos="fade-up"
                 />
             </div>

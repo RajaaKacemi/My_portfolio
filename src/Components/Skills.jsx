@@ -81,7 +81,7 @@ function Skills({ isDarkMode }) {
                             <div className="p-2" data-aos="fade-right">
                                 <div className={`border py-4 px-3 hover:border-2 hover:border-${isDarkMode ? 'white' : 'black'} transition-all ease-in-out`}>
                                     <div className="flex justify-between gap-10">
-                                        <h6 className="sm:text-sm text-xs text-start"><span className='font-semibold'>Internship:</span> Jan. 2024 - Mar. 2024</h6>
+                                        <h6 className="sm:text-sm text-xs text-start"><span className='font-semibold'>Internship:</span> Jan. 2024 - Avr. 2024</h6>
                                         <p className="sm:text-sm text-xs text-end"><strong>Full stack Mobile Developer</strong></p>
                                     </div>
                                     <p className="py-1 text-sm text-start">- Developed a mobile e-commerce application, with Flutter and Dart.</p>

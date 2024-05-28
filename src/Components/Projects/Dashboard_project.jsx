@@ -28,8 +28,8 @@ function Dashboard_project({ isDarkMode }) {
         -Manage user accounts, permissions, and access levels securely.
       </p>
       <p className="py-1 px-8 text-start text-base leading-relaxed">-Detailed user profiles with purchase history, preferences, and activity logs,</p>
-      <p className="py-1 px-8 text-start text-base leading-relaxed">I create this project in partnership with <i><a target="_blank" href="https://www.linkedin.com/in/taha-el-atoui-4089a2227/" >@Taha El atoui</a> and <a target="_blank" href="https://www.linkedin.com/in/amine-el-bouzydy-06943a22b/">@Amine Elbouzydy</a> </i>.</p>
-      {/* <h5 className="py-1 px-8 text-start text-base leading-relaxed"><strong>Live Demo:</strong><a href="https://github.com/RajaeKacemi/E-commerceWebsite"> see the project</a></h5> */}
+      
+      <h5 className="py-1 px-8 text-start text-base leading-relaxed"><strong>Live Demo:</strong><a href="https://github.com/RajaaKacemi/E-commerce-website"> see the project</a></h5>
       <h4 className="text-sm pb-2 text-start px-8">
         Here&apos;s some screens shot:
       </h4>
@@ -46,12 +46,16 @@ function Dashboard_project({ isDarkMode }) {
         <p>screen 3</p>
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712765396/images/Screenshot_2024-04-10_160701_bsa8ye.png" alt="" className="py-2 w-2/3 mx-auto" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1716881837/Screenshot_2024-05-28_083703_ukxu0o.png" alt="" className="py-2 w-2/3 mx-auto" />
         <p>screen 4</p>
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712765407/images/Screenshot_2024-04-10_160720_l31oqb.png" alt="" className="py-2 w-2/3 mx-auto" />
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1716881820/Screenshot_2024-05-28_083617_llztcl.png" alt="" className="py-2 w-2/3 mx-auto" />
         <p>screen 5</p>
+      </div>
+      <div>
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712765407/images/Screenshot_2024-04-10_160720_l31oqb.png" alt="" className="py-2 w-2/3 mx-auto" />
+        <p>screen 6</p>
       </div>
     </div>
   );

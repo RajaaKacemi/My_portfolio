@@ -15,6 +15,7 @@ import Dashboard_project from './Components/Projects/Dashboard_project';
 import NotFound from './Components/NotFound';
 import ScrollToTop from './Components/ScrollToTop';
 import PulseLoader from "react-spinners/PulseLoader";
+import Template_travel from "./Components/Projects/Template_travel";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -57,6 +58,7 @@ function App() {
               <Route exact path='/Random_quotes_project' element={<Random_quotes_project isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
               <Route exact path='/Prestigious_project' element={<Prestigious_project  isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode}/>} />
               <Route exact path='/Dashboard_project' element={<Dashboard_project isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+              <Route exact path='/Template_travel' element={<Template_travel isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
               <Route exact path='/*' element={<NotFound isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
             </Routes>
           </ScrollToTop>

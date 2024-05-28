@@ -8,9 +8,9 @@ function Projects({ isDarkMode }) {
       <div>
         <button className={`px-4 py-2 border ${isDarkMode ? 'bg-white text-black' : 'bg-black text-white'}`}>Projects</button>
       </div>
-      <div className="sm:flex py-4">
+      <div className="sm:flex flex-wrap py-4">
         {projectsData.map((project, index) => (
-          <div key={index} className="p-2 sm:w-1/3 flex-grow flex">
+          <div key={index} className="p-2 sm:w-1/3  flex">
             <div className={`border py-4 px-3 hover:border-2 hover:${isDarkMode ? 'border-white' : 'border-black'} transition-all ease-in-out flex-grow flex flex-col justify-between`}>
               <div className="flex justify-between">
                 <NavLink to={project.Page_desc}>

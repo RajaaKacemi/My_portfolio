@@ -1,27 +1,35 @@
 [
     {
+      "title": "PRESTIGIOUS",
+      "Type": "E-commerce website",
+      "Description": "An e-commerce website to sell jewelries and accessories, this application based on MERN stack technologies.",
+      "LiveDemo": "https://github.com/RajaaKacemi/E-commerce-website",
+      "Code": "https://github.com/RajaaKacemi/E-commerce-website",
+      "Page_desc": "/Prestigious_project"
+    },
+    {
+      "title": "E-commerce Management Dashboard",
+      "Type": "",
+      "Description": "An E-commerce Management Dashboard helps online businesses efficiently manage products, orders, and customer interactions. It streamlines operations for a smoother retail experience.",
+      "LiveDemo": "https://github.com/RajaaKacemi/E-commerce-website",
+      "Code": "https://github.com/RajaaKacemi/E-commerce-website",
+      "Page_desc": "/Dashboard_project"
+    },
+    {
+      "title": "A simple template created using HTML and CSS.",
+      "Type": "",
+      "Description": "A simple template created using HTML and CSS.",
+      "LiveDemo": "https://traveltemplate-ml2nmb40b-rajaakacemis-projects.vercel.app/",
+      "Code": "https://github.com/RajaaKacemi/HTML_CSS_Template1_ZeroWebSchool",
+      "Page_desc": "/Template_travel"
+    },
+    {
       "title": "The Console (CLI)",
       "Type": "Airbnb clone",
       "Description": "The HBNB console is the first step in an attempt to clone the known AirBnb site. A console (CLI) capable of creating, manipulating, and storing instances...",
       "LiveDemo": "https://github.com/RajaaKacemi/AirBnB_clone",
       "Code": "https://github.com/RajaaKacemi/AirBnB_clone",
       "Page_desc": "/Console_project"
-    },
-    {
-      "title": "PRESTIGIOUS",
-      "Type": "E-commerce website",
-      "Description": "An e-commerce website to sell jewelries and accessories, this application based on MERN stack technologies. I create this website in partnership with two people.",
-      "LiveDemo": "https://prestigious-five.vercel.app/",
-      "Code": "https://github.com/RajaeKacemi/E-commerceWebsite",
-      "Page_desc": "/Prestigious_project"
-    },
-    {
-      "title": "E-commerce Management Dashboard",
-      "Type": "",
-      "Description": "A E-commerce Management Dashboard is a robust solution designed to empower businesses operating online retail platforms with efficient management of products, orders, and user interactions, while providing valuable statistical insights for informed decision-making.",
-      "LiveDemo": "https://github.com/RajaeKacemi/E-commerceWebsite",
-      "Code": "https://github.com/RajaeKacemi/E-commerceWebsite",
-      "Page_desc": "/Dashboard_project"
     },
     {
       "title": "Random quotes",

@@ -26,6 +26,9 @@ function Prestigious_project({ isDarkMode }) {
       <div>
         <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1712279784/Screenshot3_kqj0gj.png" alt="" className="py-2 w-2/3 mx-auto" />
       </div>
+      <div>
+        <img src="https://res.cloudinary.com/dfin3vmgz/image/upload/v1716882439/Screenshot_2024-05-28_084426_dwnnas.png" alt="" className="py-2 w-2/3 mx-auto" />
+      </div>
     </div>
   );
 }
